@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <h1>Nested Lists</h1>
+            <ul>
+                <li>Cars
+                    <ol type="a">
+                        <li>Toyota
+                            <ul>
+                                <li>Corolla</li>
+                                <li>RAV4</li>
+                            </ul>
+                        </li>
+                        <li>Honda</li>
+                        <ul>
+                            <li>Civic</li>
+                            <li>Accord</li>
+                        <li>GMC</li>
+                        </ul>
+                        <li>Motocycles</li>
+                        <li>Trucks</li>
+                    </ol>
+                </li>
+                <li>Yamaha
+                    <ol type="i">
+                        <li>FJR</li>
+                        <li>R6</li>
+                        <li>MT-09</li>
+                    </ol>
+                </li>
+            </ul>
+            <h2>Images</h2>
+            <img src="kirui.jpg" alt="my Picture." width="300" height="250">
+            <img src="https://ix-marketing.imgix.net/bg-remove_after.png?auto=format,compress&w=1446.jpg" alt="Picture of an orange." width="300" height="250">
+            <h2>Video</h2>
+            <video controls width="350" height="315">
+                <source src="POKOT BOY-BANDIT.mp4" type="video/mp4">
+                Your browser does not support video playback.
+            </video>
+            <h2>Audio</h2>
+            <audio controls>
+                <source src="2ND JUNIOUR-MAMA JOILINE.mp3" type="audio/mpeg">
+                Your browser does not support audio playback.
+            </audio>
+            <h2>Tables</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Trucks</th>
+                        <th>Cars</th>
+                        <th>Motocycles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ram</td>
+                        <td>Toyota</td>
+                        <td>Yamaha</td>
+                    </tr>
+                    <tr>
+                        <td>GMC</td>
+                        <td>Honda</td>
+                        <td>Ducati</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h2>Forms</h2>
+            <form action="location" method="how" enctype="multipart/form-data">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email">
+                <br><br>
+                <label for="profile">Profile Picture:</label>
+                <input type="file" name="profile" id="profile">
+                <br><br>
+                <label for="bio">Bio:</label>
+                <textarea name="bio" id="bio" rows="4" cols="50"></textarea>
+                <br><br>
+                <label for="country">Country:</label>
+                <select name="country" id="country">
+                    <option value="">--Select Country--</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Tanzaia">Tanzania</option>
+                    <option value="Kenya">Kenya</option>  
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </body>
+    </html>
